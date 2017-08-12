@@ -24,8 +24,9 @@ Kommentera bort initial commit
 tryck escape för att komma ur skrivläget
 skriv :wq för att genomföra commiten. 
 
-Du kan även skriva in detta
-git commit -m 'changed app.js' //app.js är filens namn
+Du kan även skriva in detta (enklare)
+git commit -m 'another change'
+
 
 $git push// pushar ditt lokala repositary till github
 $git pull// när du ska hämta senaste versionen från github.
@@ -41,6 +42,9 @@ fungerar även från vanliga cmd
 
 skapa filer i cmd
 touch index.html
+
+skapa branch
+git bransch login (login kan bytas mot något annat)
 
 Gitmappen ser du om du går in i explorer i aktuell mapp som initierats som git
 och väljer visa dolda filer (view->options->change...->view
