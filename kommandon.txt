@@ -24,6 +24,9 @@ Kommentera bort initial commit
 tryck escape för att komma ur skrivläget
 skriv :wq för att genomföra commiten. 
 
+Du kan även skriva in detta
+git commit -m 'changed app.js' //app.js är filens namn
+
 $git push// pushar ditt lokala repositary till github
 $git pull// när du ska hämta senaste versionen från github.
 $git clone// clonar ett externt repository till din lokala dator
@@ -41,3 +44,8 @@ touch index.html
 
 Gitmappen ser du om du går in i explorer i aktuell mapp som initierats som git
 och väljer visa dolda filer (view->options->change...->view
+
+för att ignorera filer lägg till en gitignorefil. 
+Skriv detta i cmd: touch .gitignore
+
+
