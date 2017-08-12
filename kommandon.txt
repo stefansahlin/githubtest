@@ -45,6 +45,28 @@ touch index.html
 
 skapa branch
 git bransch login (login kan bytas mot något annat)
+sedan går du över till den branschen såhär (då får det inte ligga kvar filer som inte är addade): 
+Switched to branch 'login'
+
+sedan går du tillbaka till master såhär: 
+git checkout master
+(då ser du att katalogen ändras när du går in i utforskaren)
+
+därefter kör du git merge [branschens namn] för att merga
+
+för att koppla till externt repository
+$ git remote
+
+sedan går du till repositoriet som du har skapat, exempel detta
+(commandon dyker upp på github när du skapat repositorium)
+git remote add origin https://github.com/stefansahlin/githubtest.git
+
+för att pusha dit kör du detta:
+git push -u origin master
+Därefter får du skriva in användarnamn och lösenord (skriv 
+då in användarnamn och inte mailadress)
+
+
 
 Gitmappen ser du om du går in i explorer i aktuell mapp som initierats som git
 och väljer visa dolda filer (view->options->change...->view
