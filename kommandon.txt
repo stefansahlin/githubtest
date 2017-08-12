@@ -1,0 +1,37 @@
+https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=1s
+$ git init 
+//initierar git, när du skapat upp 
+ett projekt och vill lägga in det i github använder du det
+
+$git add <file> lägger till filen till index
+git add . //lägger till alla filer
+git add *.html //lägger till alla html-filer
+
+git rm --cached [index.html] tar bort filen från repot
+
+
+$git status 
+//kollar statusen för trädet.
+Känner av om det finns filer i git-mappen där det finns ändringar
+som inte blivit commitade
+
+
+$git commit// commitar ändringarna
+
+$git push// pushar ditt lokala repositary till github
+$git pull// när du ska hämta senaste versionen från github.
+$git clone// clonar ett externt repository till din lokala dator
+
+
+Github laddas ned härifrån: 
+https://git-scm.com/download/win
+
+När du laddat ned git kan du köra den här i git bash för att testa att det fungerar
+git --version
+fungerar även från vanliga cmd
+
+skapa filer i cmd
+touch index.html
+
+Gitmappen ser du om du går in i explorer i aktuell mapp som initierats som git
+och väljer visa dolda filer (view->options->change...->view
