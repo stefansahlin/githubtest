@@ -17,6 +17,12 @@ som inte blivit commitade
 
 
 $git commit// commitar ändringarna
+När du commitar
+skriv git commit
+wim editorn dyker upp-> tryck i för att kunna skriva i den
+Kommentera bort initial commit
+tryck escape för att komma ur skrivläget
+skriv :wq för att genomföra commiten. 
 
 $git push// pushar ditt lokala repositary till github
 $git pull// när du ska hämta senaste versionen från github.
